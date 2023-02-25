@@ -1,0 +1,37 @@
+.Header-Flex{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 16px;
+    background: #fff3d9;
+}
+.Header-Flex h1{
+    font-weight: 500;
+}
+.Header-Flex ul li{
+    display: inline;
+    padding: 20px;
+}
+.Header-Flex li a{
+text-decoration: none;
+color: black;
+font-size: 14px;
+font-weight: 500;
+}
+.Header-Icons{
+   display: flex;
+   gap: 10px;
+}
+.Header-Icon-1{
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 100px;
+    color: white;
+    background: Black;
+}
+.Header-Icon-2{
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 100px;
+    color: white;
+    background: Black;
+}
