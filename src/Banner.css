@@ -1,0 +1,35 @@
+.Banner-Flex{
+    display: flex;
+    justify-content: space-around;
+    align-items :center;
+    flex-wrap: wrap;
+    background: #fff3d9;
+    border-radius: 0 0 0 25%;
+    padding-bottom: 90px;
+}
+.Banner-Flex img{
+    max-width: 650px;
+}
+.Banner-Text span {
+ color: #e89082;
+}
+.Banner-Text h1{
+    font-size: 70px;
+    font-weight: 600;
+    max-width: 400px ;
+    line-height: 1.2;
+}
+.Banner-Text p{
+    font-size: 19px;
+    padding-top: 25px;
+max-width: 500px;
+}
+.Banner-Text button{
+    background: #000;
+    color: #fff;
+    padding: 10px;
+    border:none;
+    border-radius: 12px;
+    width: 150px;
+    margin-top: 25px;
+}

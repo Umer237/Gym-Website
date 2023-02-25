@@ -1,0 +1,33 @@
+.Section-2-Flex{
+    display: flex;
+    justify-content: space-evenly ;
+    align-items: center;
+    padding-top:10%;
+}
+.Section-2-Text h2{
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    color: #e89082;
+    padding-bottom: 25px;
+}
+.Section-2-Text h1{
+    font-size: 70px;
+    font-weight: 500;
+    max-width: 520px;
+    line-height: 1.2;
+}
+.Section-2-Flex button{
+    background: #000;
+    color: #fff;
+    padding: 10px;
+    border:none;
+    border-radius: 15px;
+    width: 150px;
+    margin-top: 25px;
+}
+.Section-2-Text p{
+    font-size: 19px;
+    padding-top: 25px;
+max-width: 500px;
+}
