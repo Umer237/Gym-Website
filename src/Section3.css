@@ -1,0 +1,101 @@
+.Section-3-Text{
+    text-align: center;
+    padding-top: 5%;
+}
+.Section-3-Text h2{
+    color: #e89082;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.Section-3-Text h1{
+    font-size: 50px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.Section-3-Text p{
+    font-size: 15px;
+    max-width: 400px;
+    font-weight: 400;
+    margin: auto;
+    padding-top: 10px;
+}
+.Boxes{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 100px;
+    height: 250px;
+}
+.Box-1{
+  box-shadow: 10px 5px 40px rgb(207, 205, 205);
+    padding: 25px;
+    padding-top: 35px;
+}
+.Box-2{
+  box-shadow: 10px 5px 40px rgb(207, 205, 205);
+  padding: 25px;
+  padding-top: 35px;
+}
+.Box-3{
+  box-shadow: 10px 5px 40px rgb(207, 205, 205);
+  padding: 25px;
+  padding-top: 35px;
+}
+.Box-4{
+  box-shadow: 10px 5px 40px rgb(207, 205, 205);
+  padding: 25px;
+  padding-top: 35px;
+}
+.Box-1 h3{
+  font-size: 25px;
+  font-weight: 500;
+}
+.Box-2 h3{
+  font-size: 25px;
+  font-weight: 500;
+}
+.Box-3 h3{
+  font-size: 25px;
+  font-weight: 500;
+}
+.Box-4 h3{
+  font-size: 25px;
+  font-weight: 500;
+}
+.Box-1 p{
+  max-width: 200px;
+  font-size: 15px;
+  font-weight: 300;
+}
+.Box-2 p{
+    max-width: 200px;
+    font-size: 15px;
+    font-weight: 300;
+  }
+  .Box-3 p{
+    max-width: 200px;
+    font-size: 15px;
+    font-weight: 300;
+  }
+  .Box-4 p{
+    max-width: 200px;
+    font-size: 15px;
+    font-weight: 300;
+  }
+  .Icon-1{
+    font-size: 50px;
+    color: #f48c80;
+  }
+  .Icon-2{
+    font-size: 50px;
+    color:#f9c345;
+   
+  }
+  .Icon-3{
+    font-size: 50px;
+    color: #c3bff9;
+  }
+  .Icon-4{
+    font-size: 50px;
+    color: #5171e2;
+  }
