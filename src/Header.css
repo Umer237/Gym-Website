@@ -3,13 +3,14 @@
     justify-content: space-around;
     padding-top: 16px;
     background: #fff3d9;
+    text-align: center;
 }
 .Header-Flex h1{
     font-weight: 500;
 }
 .Header-Flex ul li{
     display: inline;
-    padding: 20px;
+    padding: 25px;
 }
 .Header-Flex li a{
 text-decoration: none;

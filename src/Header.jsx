@@ -7,7 +7,9 @@ const Header = () => {
   return (
    <>
    <div className='Header-Flex'>
+    <div>
    <h1>GYM</h1>
+   </div>
    <div>
    <ul>
     <li><a href="/">About</a></li>
