@@ -1,6 +1,7 @@
 import React from 'react'
 import './Section2.css'
 import Body2 from './Images/BodyBuilder2.png'
+import { AnimationOnScroll } from 'react-animation-on-scroll';
 const Section2 = () => {
   return (
 <>

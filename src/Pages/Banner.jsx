@@ -5,6 +5,7 @@ import Body from'./Images/BodyBuilder.png'
 const Banner = () => {
   return (
   <>
+  <div data-aos="fade-right">
   <div className='Banner-Flex'>
     <div className='Banner-Text'>
    <h1><span>Enjoy</span> Fitness in our Gym</h1>
@@ -13,6 +14,7 @@ const Banner = () => {
    </div>
  
    <img src={Body} alt="" />
+  </div>
   </div>
   </>
   )
