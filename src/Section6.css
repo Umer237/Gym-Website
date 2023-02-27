@@ -1,0 +1,37 @@
+.Section-6-FLex{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.Section-6-Background{
+    background: #fff3d9;  
+    margin-top: 100px; 
+}
+.Section-6-FLex img{
+max-width: 800px;
+}
+.Section-6-FLex button{
+    background: #333232;
+    color: #fff;
+    padding: 10px;
+    border:none;
+    border-radius: 10px;
+    width: 150px;
+    margin-top: 25px;
+}
+.Section-6-FLex h2{
+    color: #e89082;
+    font-weight: 500;
+    font-size: 19px;
+    padding-bottom: 20px;
+}
+.Section-6-FLex h1{
+    font-size: 50px;
+    max-width: 400px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.Section-6-FLex p{
+    max-width: 450px;
+    padding-top: 25px;
+}

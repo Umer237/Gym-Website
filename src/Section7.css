@@ -1,0 +1,37 @@
+.Section-7-Flex{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 150px;
+}
+.Section-7-Text h2{
+font-size: 19px;
+letter-spacing: 1px;
+font-weight: 500;
+color: #e89082;
+padding-bottom:20px;
+}
+.Section-7-Text h1{
+    font-size: 50px;
+    max-width: 300px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.Section-7-Text p{
+    font-size: 14px;
+    max-width: 400px;
+    padding-top: 15px;
+}
+.Section-7-Text button{
+    background: #333232;
+    color: #fff;
+    padding: 10px;
+    border:none;
+    font-size: 12px;
+    border-radius: 10px;
+    width: 150px;
+    margin-top: 25px;
+}
+.Section-7-Flex img{
+    max-width:500px;
+}

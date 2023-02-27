@@ -28,6 +28,27 @@
     display: flex;
     justify-content: space-evenly;
     padding-top: 100px;
+  
+}
+.Section-1{
+    box-shadow: 10px 5px 40px #353434;
+    padding: 50px;
+    border-radius: 10px;
+    background: #fff;
+    height:365px;
+}
+.Section-2{
+    box-shadow: 10px 5px 40px #353434;
+    padding: 70px;
+    border-radius: 10px;
+    background: #fff;
+    height: 320px;
+}
+.Section-3{
+    box-shadow: 10px 5px 40px #353434;
+    padding: 50px;
+    border-radius: 10px;
+    background: #fff;
 }
 .Section-5-Flex .Exercise1{
     max-width: 200px;
