@@ -1,0 +1,61 @@
+.Section-5-Text{
+    text-align: center;
+}
+.Section-5-Text h2{
+    font-size: 20px;
+    font-weight: 500;
+    color: #e89082;
+}
+.Section-5-Text h1{
+    font-size: 45px;
+    font-weight: 500;
+    max-width: 700px;
+    margin: auto;
+    line-height: 1.2;
+}
+.Section-5-Text p{
+    font-size: 13px;
+    font-weight: 400;
+    max-width: 350px;
+    margin: auto;
+    padding-top: 10px;
+}
+.Section-5-Flex h1{
+    font-size: 20px;
+    font-weight: 500;
+}
+.Section-5-Flex{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 100px;
+}
+.Section-5-Flex .Exercise1{
+    max-width: 200px;
+    
+}
+.Section-5-Flex .Person1{
+    max-width: 25px;
+    border-radius: 100%;
+}
+.Section-5-Flex .Exercise2{
+    max-width: 190px;
+}
+.Section-5-Flex .Exercise3{
+    max-width: 240px;
+}
+.Section-5-Flex p{
+    padding-left: 5px;
+    font-size: 14px;
+}
+.Person1-Flex{
+    display: flex;
+    padding-top: 5px;
+}
+.Person2-Flex{
+    display: flex;
+    padding-top: 5px;
+}
+.Person3-Flex{
+    display: flex;
+    padding-top: 5px;
+}

@@ -27,22 +27,26 @@
     height: 250px;
 }
 .Box-1{
-  box-shadow: 10px 5px 40px rgb(207, 205, 205);
+  box-shadow: 10px 5px 40px #f48c80;
     padding: 25px;
     padding-top: 35px;
+    border-radius: 20px;
 }
 .Box-2{
-  box-shadow: 10px 5px 40px rgb(207, 205, 205);
+  box-shadow: 10px 5px 40px #f9c345;
   padding: 25px;
   padding-top: 35px;
+  border-radius: 20px;
 }
 .Box-3{
-  box-shadow: 10px 5px 40px rgb(207, 205, 205);
+  box-shadow: 10px 5px 40px #c3bff9;
   padding: 25px;
   padding-top: 35px;
+  border-radius: 20px;
 }
 .Box-4{
-  box-shadow: 10px 5px 40px rgb(207, 205, 205);
+  box-shadow: 10px 5px 40px #5171e2;
+  border-radius: 20px;
   padding: 25px;
   padding-top: 35px;
 }
