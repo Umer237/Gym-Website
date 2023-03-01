@@ -6,8 +6,6 @@ import Women2 from "./Images/Women2.jpg";
 import Man1 from "./Images/ManLifting2.jpg";
 import Man2 from "./Images/MenLifting.webp";
 import Man3 from "./Images/Man5.webp";
-import PushUp from "./Images/PushUp.webp";
-import Excer from "./Images/Exercise.jpg";
 
 const Section10 = () => {
   return (
@@ -50,14 +48,6 @@ const Section10 = () => {
 
           <div className="col-1">
           <img className="Image-6" src={Man3} alt="" />
-        </div>
-
-        <div className="col-1">
-          <img className="Image-7" src={PushUp} alt="" />
-          </div>
-
-          <div className="col-1">
-          <img className="Image-8" src={Excer} alt="" />
         </div>
 
       </div>
