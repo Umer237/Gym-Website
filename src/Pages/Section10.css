@@ -40,3 +40,42 @@
     background: #000;
     color: white;
   }
+  .Images-Section{
+    /* padding: 100px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .Image-1{
+    /* width: 400px; */
+   
+  }
+  .col-1{
+    height: 400px;
+  }
+  .col-1 img{
+    flex: 1 1 400px;
+    height: 400px;
+  }
+    /* .Image-2{
+      width: 600px;
+    }
+    .Image-3{
+      width: 670px;
+    }
+    .Image-4{
+      width: 419px;
+    }
+    .Image-5{
+      width: 742px;
+    }
+    .Image-6{
+      width: 482px;
+    }
+    .Image-7{
+      width: 750px;
+    }
+    .Image-8{
+      width: 890px;
+    } */
