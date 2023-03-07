@@ -1,7 +1,7 @@
 import React from 'react'
 import './Section11.css'
-import girl from './Images/girl.jpg'
-import man from './Images/man.jpg'
+import girl1 from './Images/girl.jpg'
+import man1 from './Images/man.jpg'
 const Section11 = () => {
   return (
 <>
@@ -13,7 +13,7 @@ const Section11 = () => {
 </div>
 <div className='Section-1'>
     <div className='Section-1-Text'>
-    <img className='Person-1' src={man} alt="" />
+    <img className='Person-1' src={man1} alt="" />
     <h2>David Salsa</h2>
     <h3>Park Street, L/k-2, USA</h3>
     </div>
@@ -21,7 +21,7 @@ const Section11 = () => {
 </div>
 <div className='Section-2'>
     <div className='Section-2-Text'>
-    <img className='Person-2' src={girl} alt="" />
+    <img className='Person-2' src={girl1} alt="" />
     <h2>Lusia Salsa</h2>
     <h3>Park Street, L/k-2, USA</h3>
     </div>
