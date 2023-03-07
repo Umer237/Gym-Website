@@ -1,5 +1,7 @@
 import React from 'react'
 import './Section11.css'
+import girl from './Images/girl.jpg'
+import man from './Images/man.jpg'
 const Section11 = () => {
   return (
 <>
