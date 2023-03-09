@@ -2,19 +2,22 @@
     box-shadow: 10px 5px 40px rgb(207, 205, 205);
     padding: 40px;
     border-radius: 20px;
-    height: 300px;
+    height: 140px;
+    margin-top: 70px;
 }
 .Section-2{
     box-shadow: 10px 5px 40px rgb(207, 205, 205);
     padding: 40px;
     border-radius: 20px;
-    height: 300px;
+    height: 140px;
+    margin-top: 70px;
 }
 .Section-2 h2{
     font-weight: 400;
 }
 .Section-1 h2{
     font-weight: 400;
+    font-size: 24px;
 }
 .Section-1 h3{
     font-weight: 600;
@@ -28,12 +31,28 @@
 .Person-2{
     border-radius: 100%;
 }
-.Section-1-Text{
+.Side-Text h2{
+    color: #e89082;
+    font-weight: 500;
+    font-size: 20px;
+}
+.Side-Text h1{
+    font-size: 60px;
+    max-width: 400px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+.Section-11-Flex .Side-Text p{
     padding-top: 20px;
+    max-width: 320px;
 }
 
-.Section-2-Text{
-    padding-top: 20px;
+.Section-2-Text h2{
+    font-size: 24px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    color: #000000;
+    padding: 0;
 }
 .Section-11-Flex{
     display: flex;
