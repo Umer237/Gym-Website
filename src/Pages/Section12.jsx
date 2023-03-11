@@ -21,9 +21,15 @@ const Section12 = () => {
             <h1>$9</h1>
           </div>
           <div>
-            <BsCircleFill /> <h3>Yoga Class</h3>
-            <BsCircleFill /> <h3>Fitness Training</h3>
-            <BsCircleFill /> <h3>Cycling</h3>
+            <div className="Icon-Flex">
+              <BsCircleFill /> <h3>Yoga Class</h3>
+            </div>
+            <div className="Icon-Flex">
+              <BsCircleFill /> <h3>Fitness Training</h3>
+            </div>
+            <div className="Icon-Flex">
+              <BsCircleFill /> <h3>Cycling</h3>
+            </div>
             <button>BUY NOW</button>
           </div>
         </div>
@@ -33,16 +39,19 @@ const Section12 = () => {
             <h1>$24</h1>
           </div>
           <div>
-            <div>
-            <BsCircleFill />
-            <h3>Yoga Class</h3>
-            </div><div>
-            <BsCircleFill />
-            <h3>Fitness Training</h3>
-            </div><div>
-            <BsCircleFill />
-            <h3>Cycling</h3></div>
-            
+            <div className="Icon-Flex">
+              <BsCircleFill />
+              <h3>Yoga Class</h3>
+            </div>
+            <div className="Icon-Flex">
+              <BsCircleFill />
+              <h3>Fitness Training</h3>
+            </div>
+            <div className="Icon-Flex">
+              <BsCircleFill />
+              <h3>Cycling</h3>
+            </div>
+
             <button>BUY NOW</button>
           </div>
         </div>
@@ -51,13 +60,13 @@ const Section12 = () => {
             <h2>VIP</h2>
             <h1>$99</h1>
           </div>
-          <div>
+          <div className="Icon-Flex">
             <BsCircleFill /> <h3>Yoga Class</h3>
             <div>
-              <div>
+              <div className="Icon-Flex">
                 <BsCircleFill /> <h3>Fitness Training</h3>
               </div>
-              <div>
+              <div className="Icon-Flex">
                 <BsCircleFill /> <h3>Cycling</h3>
               </div>
             </div>

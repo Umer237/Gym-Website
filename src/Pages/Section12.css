@@ -42,4 +42,8 @@
     width: 180px;
     border: 1px solid black;
     border-radius: 8px;
+    cursor: pointer;
+}
+.Icon-Flex{
+    display: flex;
 }
