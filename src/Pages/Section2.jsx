@@ -14,7 +14,7 @@ const Section2 = () => {
   <p>The sky was cloudless and of a deep dark blue. The spectacle before us was indeed sublime. </p>
   <button>EXPLORE</button>
   </div>
-  <h1>alihaider</h1>
+
 </div>
 </>
   )
