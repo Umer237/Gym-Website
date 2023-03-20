@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/Gym-Website/static/css/main.95061bf0.css",
+    "main.js": "/Gym-Website/static/js/main.ee1d8668.js",
+    "static/js/787.28cb0dcd.chunk.js": "/Gym-Website/static/js/787.28cb0dcd.chunk.js",
+    "static/media/girl.jpg": "/Gym-Website/static/media/girl.1e06e4090a00a9ec742e.jpg",
+    "static/media/Tranier1.jpg": "/Gym-Website/static/media/Tranier1.22d494fc648570a19dfb.jpg",
+    "static/media/man.jpg": "/Gym-Website/static/media/man.17930df72817654bd86d.jpg",
+    "static/media/Yoga.png": "/Gym-Website/static/media/Yoga.0312070255b2824b78de.png",
+    "static/media/Tranier4.jpg": "/Gym-Website/static/media/Tranier4.b25db82859cd4239e6ec.jpg",
+    "static/media/Tranier3.jpg": "/Gym-Website/static/media/Tranier3.7950f78002417a9b93c1.jpg",
+    "static/media/Tranier2.jpg": "/Gym-Website/static/media/Tranier2.501b9efcef9a601c555f.jpg",
+    "static/media/Cycling.png": "/Gym-Website/static/media/Cycling.933b2bebde75b96580b7.png",
+    "static/media/Women.jpg": "/Gym-Website/static/media/Women.9823565526a2938e7306.jpg",
+    "static/media/Lifting.png": "/Gym-Website/static/media/Lifting.d3fb3419599378e1790b.png",
+    "static/media/Women2.jpg": "/Gym-Website/static/media/Women2.06d3bca3c330188f29ad.jpg",
+    "static/media/BodyBuilder.png": "/Gym-Website/static/media/BodyBuilder.864ae0948fb0d13ea321.png",
+    "static/media/BodyBuilder2.png": "/Gym-Website/static/media/BodyBuilder2.119aebbe4973ee3b7949.png",
+    "static/media/Man5.webp": "/Gym-Website/static/media/Man5.9c928dfaddc5cdba109a.webp",
+    "static/media/ManLifting2.jpg": "/Gym-Website/static/media/ManLifting2.7d14baf4bf33a8d133c7.jpg",
+    "static/media/BodyBuilder3.png": "/Gym-Website/static/media/BodyBuilder3.7d890d82147e344fd99e.png",
+    "static/media/Egypt-Women.jpeg": "/Gym-Website/static/media/Egypt-Women.260d3df9401038fac78d.jpeg",
+    "static/media/OnSofa.png": "/Gym-Website/static/media/OnSofa.5db9445763975a990fa2.png",
+    "static/media/DoingYoga.jpg": "/Gym-Website/static/media/DoingYoga.17b20c727609fb7d853b.jpg",
+    "static/media/MenLifting.webp": "/Gym-Website/static/media/MenLifting.47517cb98ed58730c4f8.webp",
+    "static/media/Calculate.png": "/Gym-Website/static/media/Calculate.e23d84b6c79ed14dfcdc.png",
+    "index.html": "/Gym-Website/index.html",
+    "main.95061bf0.css.map": "/Gym-Website/static/css/main.95061bf0.css.map",
+    "main.ee1d8668.js.map": "/Gym-Website/static/js/main.ee1d8668.js.map",
+    "787.28cb0dcd.chunk.js.map": "/Gym-Website/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.95061bf0.css",
+    "static/js/main.ee1d8668.js"
+  ]
+}
