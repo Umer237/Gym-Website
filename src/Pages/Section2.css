@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-evenly ;
     align-items: center;
+    flex-wrap: wrap;
     padding-top:10%;
 }
 .Section-2-Text h2{
@@ -30,4 +31,28 @@
     font-size: 19px;
     padding-top: 25px;
 max-width: 500px;
+}
+@media only screen and (max-width: 655px){
+    .Section-2-Img img{
+        max-width:  400px;
+        padding-top: 50px;
+    }
+}
+@media only screen and (max-width: 530px){
+.Section-2-Text h2{
+    text-align: center;
+}
+.Section-2-Text h1{
+    text-align: center;
+    font-size: 45px;
+    max-width: 500px;
+}
+.Section-2-Text p{
+    text-align: center;
+    padding: 10px 0 0 0;
+    font-size: 15px;
+}
+.Section-2-Flex button{
+    margin-left: 170px;
+}
 }

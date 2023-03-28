@@ -1,49 +1,79 @@
-.Section12-Top-Text{
-    text-align: center;
-    background: #222121;
-    border-radius: 0px 200px 0px 0px;
+.Section12-Top-Text {
+  text-align: center;
+  background: #222121;
+  border-radius: 0px 200px 0px 0px;
+
 }
-.Section12-Top-Text h2{
-    color: #e89082;
-    font-weight: 500;
-    font-size: 20px;
-    padding-top: 200px;
+.Section12-Top-Text h2 {
+  color: #e89082;
+  font-weight: 400;
+  font-size: 20px;
+  padding-top: 200px;
 }
-.Section12-Top-Text h1{
-    font-size: 60px;
-    font-weight: 500;
-    line-height: 1.2;
-    color: #f8f4f4;
+.Section12-Top-Text h1 {
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #f8f4f4;
 }
-.Section12-Top-Text p{
-    color: #c4c0c0;
-    max-width: 450px;
-    margin: auto;padding-top: 10px;
+.Section12-Top-Text p {
+  color: #c4c0c0;
+  max-width: 450px;
+  margin: auto;
+  padding-top: 10px;
+  font-size: 15px;
+  font-weight: 400;
+}
+.Section12-Boxes {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  background: #222121;
+  padding-top: 200px;
+  flex-wrap: wrap;
+}
+.Box-1-Top {
+  display: flex;
+  gap: 20px;
+}
+.Section-12-Box-1 {
+  background: #fff;
+  padding: 90px;
+  border-radius: 15px;
+}
+.Section-12-Box-1 button {
+  background: none;
+  padding: 10px;
+  width: 180px;
+  border: 1px solid black;
+margin-top: 30px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.Section-12-Box-1 button:hover{
+    background: black;
+    color: white;
+}
+.Icon-Flex {
+  display: flex;
+  gap: 10px;
+  padding-top: 10px;
+}
+.Icon-Flex h3{
     font-size: 15px;
-    font-weight: 400;
+    font-weight: 500;
 }
-.Section12-Boxes{
-    display: flex;
-    justify-content: space-evenly;
-    background: #222121;
-    padding-top: 200px;
+.Section12-Boxes h1 {
+  font-size: 50px;
+  font-weight: 500;
 }
-.Box-1-Top{
-    display: flex;
-    gap: 20px;
+.Section12-Boxes h2 {
+  font-size: 20px;
 }
-.Section-12-Box-1{
-    background: #fff;
-    padding: 50px;
+.Circle-1 {
+  color: #476fed;
 }
-.Section-12-Box-1 button{
-    background: none;
-    padding: 10px;
-    width: 180px;
-    border: 1px solid black;
-    border-radius: 8px;
-    cursor: pointer;
+.Circle-2 {
+  color: #f28c7e;
 }
-.Icon-Flex{
-    display: flex;
-}
+

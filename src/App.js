@@ -1,14 +1,11 @@
-import Home from './Pages/Home';
-import { Redirect, Route, Switch } from 'react-router-dom';
+import Home from './Pages/Home'
 
 function App() {
   return (
 <>
-<Switch>
-  <Route exact path="/" component={Home}/>
-  <Redirect to="/" />
-</Switch>
-
+<>
+<Home/>
+</>
 </>
   );
 }

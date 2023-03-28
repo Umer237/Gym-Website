@@ -12,6 +12,8 @@ import Section9 from './Section9'
 import Section10 from './Section10'
 import Section11 from './Section11'
 import Section12 from './Section12'
+import Section13 from './Section13'
+import Map from './Map'
 import Footer from './Footer'
 
 const Home = () => {
@@ -30,6 +32,8 @@ const Home = () => {
     <Section10/>
     <Section11/>
     <Section12/>
+    <Section13/>
+    <Map/>
     <Footer/>
     </>
   )

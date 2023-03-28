@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    flex-wrap: wrap-reverse;
 }
 .Section-6-Background{
     background: #fff3d9;  
@@ -34,4 +35,14 @@ max-width: 800px;
 .Section-6-FLex p{
     max-width: 450px;
     padding-top: 25px;
+}
+@media only screen and (max-width: 768px){
+    .Section-6-Background{
+        padding-bottom: 50px;
+    }
+}
+@media only screen and (max-width: 666px){
+    .Section-6-FLex img{
+        max-width: 600px;
+        }
 }

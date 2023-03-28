@@ -51,4 +51,13 @@
     display: flex;
     justify-content: space-evenly;
     padding-top: 100px;
+    flex-wrap: wrap;
+}
+@media only screen and (max-width: 768px){
+    .Section-8-Flex .Img-3{
+    padding-top: 50px;
+    }
+    .Section-8-Flex .Img-4{
+        padding-top: 50px;
+    }
 }

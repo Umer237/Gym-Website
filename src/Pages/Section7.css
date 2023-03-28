@@ -3,6 +3,7 @@
     justify-content: space-evenly;
     align-items: center;
     padding-top: 150px;
+    flex-wrap: wrap;
 }
 .Section-7-Text h2{
 font-size: 19px;
@@ -34,4 +35,9 @@ padding-bottom:20px;
 }
 .Section-7-Flex img{
     max-width:500px;
+}
+@media only screen and (max-width: 666px){
+    .Section-7-Flex img{
+        max-width: 400px;
+    }
 }

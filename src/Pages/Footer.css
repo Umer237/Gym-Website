@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-evenly;
     background: rgb(32, 32, 32);
+    flex-wrap: wrap;
 }
 .First-Section{
     padding-bottom: 70px;

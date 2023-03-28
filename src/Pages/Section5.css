@@ -28,21 +28,7 @@
     display: flex;
     justify-content: space-evenly;
     padding-top: 100px;
-  
-}
-.Section-1{
-    box-shadow: 10px 5px 40px #353434;
-    padding: 50px;
-    border-radius: 10px;
-    background: #fff;
-    height:365px;
-}
-.Section-2{
-    box-shadow: 10px 5px 40px #353434;
-    padding: 70px;
-    border-radius: 10px;
-    background: #fff;
-    height: 320px;
+  flex-wrap: wrap;
 }
 .Section-3{
     box-shadow: 10px 5px 40px #353434;
@@ -52,7 +38,6 @@
 }
 .Section-5-Flex .Exercise1{
     max-width: 200px;
-    
 }
 .Section-5-Flex .Person1{
     max-width: 25px;
@@ -79,4 +64,9 @@
 .Person3-Flex{
     display: flex;
     padding-top: 5px;
+}
+@media only screen and (max-width: 768px){
+.Section-3{
+    margin-top: 60px;
+}
 }
