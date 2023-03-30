@@ -76,4 +76,16 @@ margin-top: 30px;
 .Circle-2 {
   color: #f28c7e;
 }
+@media only screen and (max-width:320px) {
+  .Section12-Top-Text h2{
+    font-size: 18px;
+  }
+  .Section12-Top-Text h1{
+  font-size: 45px;
+  }
+  .Section12-Top-Text p{
+    text-align: center;
+    font-size: 11px;
+  }
+}
 

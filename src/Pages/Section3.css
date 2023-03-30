@@ -132,3 +132,8 @@ margin: auto;
       margin-top: 50px;
     }
   }
+  @media only screen and (max-width: 500px){
+    .Boxes{
+      max-width: 300px;
+    }
+  }

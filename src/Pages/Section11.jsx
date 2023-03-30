@@ -24,7 +24,7 @@ const Section11 = () => {
           </div>
         </div>
         <div className="Section-2">
-          <div className="Section-2-Text">
+          <div>
             <img className="Person-2" src={girl1} alt="" />
             <h2>Sanee Viscal</h2>
           </div>

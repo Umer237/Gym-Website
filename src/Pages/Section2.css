@@ -56,3 +56,11 @@ max-width: 500px;
     margin-left: 170px;
 }
 }
+@media only screen and (max-width: 400px){
+.Section-2-Img img{
+    max-width: 300px;
+}
+.Section-2-Flex button{
+    margin-left: 90px;
+}
+}

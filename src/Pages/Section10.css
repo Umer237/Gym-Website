@@ -79,3 +79,24 @@
     .Image-8{
       width: 890px;
     } */
+    @media only screen and (max-width: 610px){
+      .col-1 img{
+        max-width: 400px;
+        height: 200px;
+      }
+      .col-1{
+        height: 200px;
+      }
+    }
+    @media only screen and (max-width:320px) {
+    .Section-10-Text h2{
+        font-size: 18px;
+      }
+      .Section-10-Text h1{
+      font-size: 30px;
+      }
+      .Section-10-Text p{
+        text-align: center;
+        font-size: 11px;
+      }
+    }

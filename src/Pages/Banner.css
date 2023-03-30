@@ -57,3 +57,21 @@ margin-left: 130px;
 
 }
 }
+@media only screen and (max-width: 500px){
+    .Banner-Flex img{
+        width: 450px;
+    }
+}
+@media only screen and (max-width: 455px){
+    .Banner-Flex img{
+        width: 370px;
+    }
+}
+@media only screen and (max-width: 375px){
+    .Banner-Flex img{
+        width: 300px;
+    }
+    .Banner-Text button{
+        margin-left: 90px;
+    }
+}

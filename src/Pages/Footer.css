@@ -45,3 +45,10 @@
     color:#c2756a;
     background: none;
 }
+
+@media only screen and (max-width: 320px){
+.Footer-Flex{
+    max-width: 400px;
+}
+
+}

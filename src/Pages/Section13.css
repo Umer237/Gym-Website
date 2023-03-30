@@ -32,6 +32,7 @@
 .Section13-Box-1 {
   background-color: white;
   border-radius: 20px;
+
 }
 .Section13-Box-1 img {
   max-width: 500px;
@@ -91,4 +92,33 @@ height: 45px;
 cursor: pointer;
 margin-bottom: 60px;
 }
+@media only screen and (max-width: 525px){
+  .Section13-Box-1 img {
+    max-width: 350px;
+    border-radius: 20px 0 20px 0;
+  }
+}
+@media only screen and (max-width: 500px){
+  .Section13-Box-1 img {
+    max-width: 300px;
+    border-radius: 20px 0 20px 0;
+
+  }
+  .Section13-Box-1{
+    max-width: 350px;
+  }
+}
+@media only screen and (max-width:320px) {
+  .Section13-Top-Text h2{
+    font-size: 18px;
+  }
+  .Section13-Top-Text h1{
+  font-size: 45px;
+  }
+  .Section13-Top-Text p{
+    text-align: center;
+    font-size: 11px;
+  }
+}
+
 
