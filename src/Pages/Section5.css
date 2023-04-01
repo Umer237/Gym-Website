@@ -32,22 +32,27 @@
 }
 .Section-3{
     box-shadow: 10px 5px 40px #353434;
-    padding: 50px;
+    padding: 15px;
     border-radius: 10px;
     background: #fff;
 }
 .Section-5-Flex .Exercise1{
-    max-width: 200px;
+    max-width: 250px;
+}
+.Trainer-1{
+    box-shadow: 10px 5px 40px #353434;
+    /* padding: 36px; */
+    border-radius: 10px;
+    width: 280px;
+    background: #fff;
+    height: 436px;
+}
+.Trainer-1 .Exercise2{
+    max-width: 285px;
 }
 .Section-5-Flex .Person1{
     max-width: 25px;
     border-radius: 100%;
-}
-.Section-5-Flex .Exercise2{
-    max-width: 190px;
-}
-.Section-5-Flex .Exercise3{
-    max-width: 240px;
 }
 .Section-5-Flex p{
     padding-left: 5px;
@@ -57,17 +62,14 @@
     display: flex;
     padding-top: 5px;
 }
-.Person2-Flex{
-    display: flex;
-    padding-top: 5px;
-}
-.Person3-Flex{
-    display: flex;
-    padding-top: 5px;
-}
+
 @media only screen and (max-width: 768px){
 .Section-3{
     margin-top: 60px;
+}
+.Section-5-Flex{
+    max-width: 300px;
+    margin: auto;
 }
 }
 @media only screen and (max-width:320px) {
@@ -78,6 +80,9 @@
     .Section-5-Text h1{
     font-size:30px;
 
+    }
+    .Trainer-1{
+        margin-top: 100px;
     }
     .Section-5-Text p{
       text-align: center;

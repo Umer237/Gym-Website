@@ -38,8 +38,13 @@
 }
 .Section-12-Box-1 {
   background: #fff;
-  padding: 90px;
+  width: 353px;
   border-radius: 15px;
+  height: 456px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 .Section-12-Box-1 button {
   background: none;
@@ -86,6 +91,11 @@ margin-top: 30px;
   .Section12-Top-Text p{
     text-align: center;
     font-size: 11px;
+  }
+}
+@media only screen and (max-width:370px) {
+  .Section-12-Box-1{
+  margin: 20px;
   }
 }
 

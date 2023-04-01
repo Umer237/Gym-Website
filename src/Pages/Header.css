@@ -1,43 +1,100 @@
-.Header-Flex{
-    display: flex;
-    justify-content: space-around;
-    padding-top: 16px;
-    background: #fff3d9;
-    text-align: center;
+.header-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 20px;
+  background: #fff3d9;
 }
-.Header-Flex h1{
-    font-weight: 500;
+.Header-Flex h1 {
+  font-weight: 500;
 }
-.Header-Flex ul li{
-    display: inline;
-    padding: 25px;
+.NavBar ul li {
+  display: inline;
+  list-style-type: none;
+  padding: 20px;
 }
-.Header-Flex li a{
-text-decoration: none;
-color: black;
-font-size: 14px;
-font-weight: 500;
+.NavBar {
+    height: 100%;
 }
-.Header-Icons{
-   display: flex;
-   gap: 5px;
+.NavBar ul li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 18px;
+  font-weight: 500;
 }
-.Header-Icon-1{
-    border: 1px solid black;
-    padding: 10px;
-    border-radius: 100px;
-    color: white;
-    background: Black;
+.Header-Icons {
+  display: flex;
+  gap: 5px;
 }
-.Header-Icon-2{
-    border: 1px solid black;
-    padding: 10px;
-    border-radius: 100px;
-    color: white;
-    background: Black;
+.Header-Icon-1 {
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 100px;
+  color: white;
+  background: Black;
 }
-@media only screen and (max-width: 655px){
-    .Header-Flex ul li{
-        display: none;
+.Header-Icon-2 {
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 100px;
+  color: white;
+  background: Black;
+}
+.Mobile-Menu-icon {
+  display: none;
+}
+
+@media only screen and (max-width: 320px) {
+    /* .NavBar {
+      display: none;
+    } */
+    .Mobile-Menu-icon {
+      font-size: 25px;
+      color: #ff7524;
     }
+}
+
+@media only screen and (max-width: 768px) {
+  .nav-links-mobile {
+    position: absolute;
+    display: block;
+    list-style: none;
+    box-shadow: rgba(50, 50, 93, 0.23) 0 30px 30px -20px;
+    left: 0;
+    /* top: 6.9%; */
+    transition: all 0.5s ease-in-out;
+    width: 100%;
+    background-color: #fff;
+    color: #ff7524;
+  }
+  .Links {
+    display: none;
+  }
+  .Mobile-Menu-icon {
+    position: absolute;
+    display: block;
+    top: 24px;
+    right: 9px;
+    color: #000;
+    cursor: pointer;
+  }
+  .NavBar ul li {
+    padding: 32px;
+    width: 100%;
+    transition: all 0.5s ease-in-out;
+    text-align: center;
+    display: flex;
+    color: #ff7524;
+  }
+  .NavBar ul li a {
+    color: #000;
+  }
+  .NavBar {
+    background: #fff;
+  }
+  .burger-btn button {
+    border: none;
+    background: none;
+    font-size: 20px;
+  }
 }

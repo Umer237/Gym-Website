@@ -8,7 +8,7 @@ const Section2 = () => {
     <div className='Section-2-Img'>
   <img src={Body2} alt="" />
   </div>
-  <div className="Section-2-Text">
+  <div className="Text">
   <h2>ABOUT GYM</h2>
   <h1>Build Your Body with Best Trainers</h1>
   <p>The sky was cloudless and of a deep dark blue. The spectacle before us was indeed sublime. </p>
