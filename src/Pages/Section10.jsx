@@ -1,11 +1,11 @@
 import React from "react";
 import "./Section10.css";
-import Yoga from "./Images/DoingYoga.jpg";
+// import Yoga from "./Images/DoingYoga.jpg";
 import Women from "./Images/Women.jpg";
-import Women2 from "./Images/Women2.jpg";
-import Man1 from "./Images/ManLifting2.jpg";
-import Man2 from "./Images/MenLifting.webp";
-import Man3 from "./Images/Man5.webp";
+// import Women2 from "./Images/Women2.jpg";
+// import Man1 from "./Images/ManLifting2.jpg";
+// import Man2 from "./Images/MenLifting.webp";
+// import Man3 from "./Images/Man5.webp";
 
 const Section10 = () => {
   return (

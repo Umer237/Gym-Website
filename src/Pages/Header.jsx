@@ -1,9 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Header.css";
 import { FaFacebookF } from "react-icons/fa";
 import { BsTwitter } from "react-icons/bs";
-import { HiBars3 } from "react-icons/hi2";
-import { ImCross } from "react-icons/im";
+// import { HiBars3 } from "react-icons/hi2";
+// import { ImCross } from "react-icons/im";
 
 const Header = () => {
 
