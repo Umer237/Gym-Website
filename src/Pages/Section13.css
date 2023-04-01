@@ -1,0 +1,124 @@
+.Section13-Top-Text {
+  text-align: center;
+}
+.Section13-Top-Text h2 {
+  color: #e89082;
+  font-weight: 400;
+  font-size: 20px;
+  padding-top: 200px;
+}
+.Section13-Top-Text h1 {
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 1.2;
+  color: #f8f4f4;
+}
+.Section13-Top-Text p {
+  color: #c4c0c0;
+  max-width: 450px;
+  margin: auto;
+  padding-top: 10px;
+  font-size: 15px;
+  font-weight: 400;
+}
+.Section13-Flex {
+  display: flex;
+  padding-top: 100px;
+  justify-content: center;
+  padding-bottom: 100px;
+  flex-wrap: wrap;
+  gap: 100px;
+}
+.Section13-Box-1 {
+  background-color: white;
+  border-radius: 20px;
+
+}
+.Section13-Box-1 img {
+  max-width: 500px;
+  border-radius: 20px 0 20px 0;
+}
+.Section13-Box-1 h3 {
+  max-width: 500px;
+  padding-left: 20px;
+  font-size: 25px;
+  padding-bottom: 20px;
+  font-weight: 500;
+}
+.Section13-Box-2 img {
+  max-width: 200px;
+  border-radius: 10px 0 0 10px;
+}
+.Section13-Box-2 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: white;
+  border-radius: 15px;
+}
+.Section13-Box-2 h3 {
+  max-width: 250px;
+  font-size: 20px;
+  font-weight: 500;
+}
+.Section13-Box-3 img {
+  max-width: 200px;
+  border-radius: 10px 0 0 10px;
+}
+.Section13-Box-3 {
+  display: flex;
+  margin-top: 40px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 15px;
+  background-color: white;
+}
+.Section13-Box-3 h3 {
+  font-size: 20px;
+  font-weight: 500;
+  max-width: 300px;
+}
+.Section13-btn{
+    text-align: center;
+}
+.Section13-btn button{
+  padding: 10px;
+background:#f9c345;
+border: none;
+color: white;
+width: 180px;
+border-radius: 5px;
+height: 45px;
+cursor: pointer;
+margin-bottom: 60px;
+}
+@media only screen and (max-width: 525px){
+  .Section13-Box-1 img {
+    max-width: 350px;
+    border-radius: 20px 0 20px 0;
+  }
+}
+@media only screen and (max-width: 500px){
+  .Section13-Box-1 img {
+    max-width: 300px;
+    border-radius: 20px 0 20px 0;
+
+  }
+  .Section13-Box-1{
+    max-width: 350px;
+  }
+}
+@media only screen and (max-width:320px) {
+  .Section13-Top-Text h2{
+    font-size: 18px;
+  }
+  .Section13-Top-Text h1{
+  font-size: 45px;
+  }
+  .Section13-Top-Text p{
+    text-align: center;
+    font-size: 11px;
+  }
+}
+
+

@@ -51,4 +51,31 @@
     display: flex;
     justify-content: space-evenly;
     padding-top: 100px;
+    flex-wrap: wrap;
 }
+@media only screen and (max-width: 768px){
+    .Section-8-Flex .Img-3{
+    padding-top: 50px;
+    }
+    .Section-8-Flex .Img-4{
+        padding-top: 50px;
+    }
+}
+@media only screen and (max-width: 670px){
+    .Section-8-Flex{
+        max-width: 350px;
+        margin: auto;
+    }
+}
+@media only screen and (max-width:320px) {
+    .Section-8-Text h2{
+      font-size: 18px;
+    }
+    .Section-8-Text h1{
+    font-size: 30px;
+    }
+    .Section-8-Text p{
+      text-align: center;
+      font-size: 11px;
+    }
+  }

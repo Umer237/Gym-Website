@@ -1,26 +1,46 @@
+.Section-4-Flex {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 40px 0px 0px 20px;
+
+  background: linear-gradient(#f9c444, #f28c7e);
+  box-shadow: 10px 5px 40px rgb(207, 205, 205);
+  margin: 100px 100px 100px 100px;
+  border-radius: 70px;
+}
+.Section-4-Flex button {
+  background: #333232;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 12px;
+  width: 150px;
+  margin-top: 15px;
+}
+.Section-4-Flex p {
+  max-width: 450px;
+}
+.Section-4-Flex img {
+  max-width: 500px;
+}
+@media only screen and (max-width: 530px){
+    .Section-4-Flex{
+        margin-top: 500px;
+    }
+}
+@media only screen and (max-width: 500px){
+  .Section-4-Flex{
+    margin-top: 600px;
+  }
+}
+@media only screen and (max-width: 450px){
 .Section-4-Flex{
-display: flex;
-justify-content: space-evenly;
-align-items: center;
-padding: 10px 0px 0px 0px;
-background: linear-gradient(#f9c444,#f28c7e
-);
-box-shadow: 10px 5px 40px rgb(207, 205, 205);
-margin: 100px 100px 100px 100px ;
-border-radius: 70px;
+  margin: 20px 20px 20px 20px ;
 }
-.Section-4-Flex button{
-    background: #333232;
-    color: #fff;
-    padding: 10px;
-    border:none;
-    border-radius: 12px;
-    width: 150px;
-    margin-top: 15px;
+.Section-4-Flex{
+  margin-top: 550px;
 }
-.Section-4-Flex p{
-    max-width: 450px;
-}
-.Section-4-Flex img{
-    max-width: 500px;
+
 }

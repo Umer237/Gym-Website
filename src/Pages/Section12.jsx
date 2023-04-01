@@ -22,13 +22,13 @@ const Section12 = () => {
           </div>
           <div>
             <div className="Icon-Flex">
-              <BsCircleFill /> <h3>Yoga Class</h3>
+              <BsCircleFill className="Circle-1" /> <h3>Yoga Class</h3>
             </div>
             <div className="Icon-Flex">
-              <BsCircleFill /> <h3>Fitness Training</h3>
+              <BsCircleFill className="Circle-2"/> <h3>Fitness Training</h3>
             </div>
             <div className="Icon-Flex">
-              <BsCircleFill /> <h3>Cycling</h3>
+              <BsCircleFill className="Circle-2"/> <h3>Cycling</h3>
             </div>
             <button>BUY NOW</button>
           </div>
@@ -40,15 +40,15 @@ const Section12 = () => {
           </div>
           <div>
             <div className="Icon-Flex">
-              <BsCircleFill />
+              <BsCircleFill className="Circle-1" />
               <h3>Yoga Class</h3>
             </div>
             <div className="Icon-Flex">
-              <BsCircleFill />
+              <BsCircleFill className="Circle-1" />
               <h3>Fitness Training</h3>
             </div>
             <div className="Icon-Flex">
-              <BsCircleFill />
+              <BsCircleFill className="Circle-2"/>
               <h3>Cycling</h3>
             </div>
 
@@ -60,16 +60,20 @@ const Section12 = () => {
             <h2>VIP</h2>
             <h1>$99</h1>
           </div>
-          <div className="Icon-Flex">
-            <BsCircleFill /> <h3>Yoga Class</h3>
-            <div>
-              <div className="Icon-Flex">
-                <BsCircleFill /> <h3>Fitness Training</h3>
-              </div>
-              <div className="Icon-Flex">
-                <BsCircleFill /> <h3>Cycling</h3>
-              </div>
+          <div>
+            <div className="Icon-Flex">
+              <BsCircleFill  className="Circle-1"/>
+              <h3>Yoga Class</h3>
             </div>
+            <div className="Icon-Flex">
+              <BsCircleFill  className="Circle-1"/>
+              <h3>Fitness Training</h3>
+            </div>
+            <div className="Icon-Flex">
+              <BsCircleFill  className="Circle-1"/>
+              <h3>Cycling</h3>
+            </div>
+
             <button>BUY NOW</button>
           </div>
         </div>

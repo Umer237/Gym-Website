@@ -3,6 +3,7 @@
     justify-content: space-evenly;
     align-items: center;
     padding-top: 150px;
+    flex-wrap: wrap;
 }
 .Section-7-Text h2{
 font-size: 19px;
@@ -35,3 +36,41 @@ padding-bottom:20px;
 .Section-7-Flex img{
     max-width:500px;
 }
+@media only screen and (max-width: 666px){
+    .Section-7-Flex img{
+        max-width: 400px;
+    }
+}
+@media only screen and (max-width:400px){
+.Section-7-Flex img{
+    max-width: 300px;
+}
+.Section-7-Text h1{
+    text-align: center;
+max-width: 350px;
+margin: auto;
+}
+.Section-7-Text h2{
+    text-align: center;
+}
+.Section-7-Text p{
+    text-align: center;
+}
+.Section-7-Flex button{
+    margin-left: 120px;
+}
+}
+@media only screen and (max-width:320px) {
+    .Section-7-Text h2{
+      font-size: 15px;
+      padding-top: 30px;
+      padding-bottom: 0;
+    }
+    .Section-7-Text h1{
+    font-size: 30px;
+    }
+    .Section-7-Text p{
+      text-align: center;
+      font-size: 11px;
+    }
+  }

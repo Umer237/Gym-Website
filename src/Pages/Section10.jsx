@@ -27,29 +27,29 @@ const Section10 = () => {
       </div>
       <div className="Images-Section">
         <div className="col-1">
-          <img className="Image-1" src={Yoga} alt="" />
+          <img className="Image-1" src={Women} alt="" />
         </div>
-
         <div className="col-1">
           <img className="Image-2" src={Women} alt="" />
         </div>
-
         <div className="col-1">
-          <img className="Image-3" src={Women2} alt="" />
+          <img className="Image-3" src={Women} alt="" />
         </div>
-
         <div className="col-1">
-          <img className="Image-4" src={Man1} alt="" />
-          </div>
-
-          <div className="col-1">
-          <img className="Image-5" src={Man2} alt="" />
-          </div>
-
-          <div className="col-1">
-          <img className="Image-6" src={Man3} alt="" />
+          <img className="Image-5" src={Women} alt="" />
         </div>
-
+        <div className="col-1">
+          <img className="Image-4" src={Women} alt="" />
+        </div>
+        <div className="col-1">
+          <img className="Image-4" src={Women} alt="" />
+        </div>
+        <div className="col-1">
+          <img className="Image-4" src={Women} alt="" />
+        </div>
+        <div className="col-1">
+          <img className="Image-4" src={Women} alt="" />
+        </div>
       </div>
     </>
   );

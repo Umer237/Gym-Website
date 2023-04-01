@@ -25,6 +25,8 @@
     justify-content: space-evenly;
     padding-top: 100px;
     height: 250px;
+    flex-wrap: wrap;
+
 }
 .Box-1{
   box-shadow: 10px 5px 40px #f48c80;
@@ -102,4 +104,36 @@
   .Icon-4{
     font-size: 50px;
     color: #5171e2;
+  }
+  @media only screen and (max-width: 768px){
+   .Boxes{
+    max-width: 720px;
+    padding-bottom: 300px;
+   }
+    .Box-3{
+      margin-top: 50px;
+    }
+    .Box-4{
+      margin-top: 50px;
+    }
+  } 
+  @media only screen and (max-width: 655px){
+    .Section-3-Text h1{
+      max-width: 500px;
+      margin: auto;
+  }
+  }
+  @media only screen and (max-width: 530px){
+    .Boxes{
+margin: auto;
+      /* max-width: 400px;  */
+    }
+    .Box-2{
+      margin-top: 50px;
+    }
+  }
+  @media only screen and (max-width: 500px){
+    .Boxes{
+      max-width: 300px;
+    }
   }

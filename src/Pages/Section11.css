@@ -71,3 +71,16 @@
 .Section-11-Flex img{
     border-radius: 100%;
 }
+@media only screen and (max-width:320px) {
+    .Side-Text h2{
+        text-align: center;
+    }
+    .Side-Text h1{
+        text-align: center;
+        font-size: 40px;
+    }
+    .Side-Text p{
+        text-align: center;
+        font-size: 11px;
+    }
+}

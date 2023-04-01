@@ -1,0 +1,8 @@
+.Map-Background{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    background-position: center;
+    background: url('./Images/Mapo.jpg');
+
+}

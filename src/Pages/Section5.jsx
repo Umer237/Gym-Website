@@ -14,7 +14,7 @@ const Section5 = () => {
     <p>The sky was cloudless and of a deep dark blue. The spectacle before us was indeed sublime. </p>
     </div>
     <div className='Section-5-Flex'>
-      <div className='Section-1'>
+      <div className='Section-3'>
      <img className='Exercise1' src={Exercise1} alt="" />
      <h1>Yoga</h1>
      <div className='Person1-Flex'>
@@ -22,7 +22,7 @@ const Section5 = () => {
       <p>Lisanne Viscaal</p>
       </div>
       </div>
-      <div className='Section-2'>
+      <div className='Section-3'>
      <img className='Exercise2' src={Exercise2} alt="" />
      <h1>Cycling</h1>
      <div className='Person2-Flex'>
