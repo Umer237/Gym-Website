@@ -42,5 +42,7 @@
 .Section-4-Flex{
   margin-top: 550px;
 }
-
+.Section-4-Flex img{
+  max-width: 300px;
+}
 }
