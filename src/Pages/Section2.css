@@ -1,9 +1,12 @@
 .Section-2-Flex{
     display: flex;
-    justify-content: space-evenly ;
+    justify-content: space-evenly;
     align-items: center;
-    flex-wrap: wrap;
+    flex-direction: row;
     padding-top:10%;
+}
+.Text{
+    transform: translate(-200px);
 }
 .Text h2{
     font-size: 20px;
@@ -15,7 +18,7 @@
 .Text h1{
     font-size: 70px;
     font-weight: 500;
-    max-width: 520px;
+    max-width: 670px;
     line-height: 1.2;
 }
 .Section-2-Flex button{

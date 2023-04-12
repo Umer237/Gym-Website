@@ -1,9 +1,10 @@
 .Banner-Flex {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap-reverse;
-  background: #fff3d9;
+  background: #ececec;
+  text-align: center;
   border-radius: 0 0 0 25%;
   padding-bottom: 90px;
 }
@@ -18,13 +19,14 @@
 .Banner-Text h1 {
   font-size: 70px;
   font-weight: 600;
-  max-width: 900px;
-  line-height: 1.2;
+  max-width: 920px;
+  line-height: 1;
 }
 .Banner-Text p {
-  font-size: 19px;
-  padding-top: 25px;
-  max-width: 500px;
+  font-size: 15px;
+  padding-top: 15px;
+  margin: auto;
+  max-width: 900px;
 }
 .Banner-Text button {
   background: #333232;

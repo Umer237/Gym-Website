@@ -5,6 +5,7 @@ const Section2 = () => {
   return (
 <>
 <div className='Section-2-Flex'>
+  <div style={{display:'flex',justifyContent:'center',alignItems:'center',}}>
     <div className='Section-2-Img'>
   <img src={Body2} alt="" />
   </div>
@@ -14,7 +15,19 @@ const Section2 = () => {
   <p>The sky was cloudless and of a deep dark blue. The spectacle before us was indeed sublime. </p>
   <button>EXPLORE</button>
   </div>
-
+  </div>
+  <div style={{display:'flex',justifyContent:'center',alignItems:'center'}}>
+  <div className='Section-2-Img'>
+  <img src={Body2} alt="" />
+  </div>
+  <div className="Text">
+  <h2>ABOUT GYM</h2>
+  <h1>Build Your Body with Best Trainers</h1>
+  <p>The sky was cloudless and of a deep dark blue. The spectacle before us was indeed sublime. </p>
+  <button>EXPLORE</button>
+  </div>
+  </div>
+  
 </div>
 </>
   )
