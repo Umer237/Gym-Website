@@ -8,7 +8,7 @@ const Banner = () => {
   <div data-aos="fade-right">
   <div className='Banner-Flex'>
     <div className='Banner-Text'>
-   <h1><span>ENJOY</span><br></br> Fitness in our Gym</h1>
+   <h1><span>ENJOY</span><br></br>FITNESS IN OUR GYM</h1>
    <p>The Sky was cloudless and of a deep dark blue. The spectacle before us was indeed sublime</p> 
     <button>BUY PASS</button>
    </div>
