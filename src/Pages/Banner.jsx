@@ -1,6 +1,5 @@
 import React from "react";
 import "./Banner.css";
-import Body from "./Images/BodyBuilder.png";
 
 const Banner = () => {
   return (
@@ -8,7 +7,7 @@ const Banner = () => {
       <div data-aos="fade-right">
         <div className="Banner-Flex">
           <div className="Banner-Text"> 
-           <img src={Body} alt="" />
+           <img src='https://i.pinimg.com/564x/ba/03/9c/ba039c56f2f1c7e73c97ff3b16e1085d.jpg' />
             <h1>
               <span>BISCUP WORKOUT</span>
               <br />
