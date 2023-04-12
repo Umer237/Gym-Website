@@ -1,80 +1,79 @@
-    
-.Banner-Flex{
-    display: flex;
-    justify-content: space-around;
-    align-items :center;
-    flex-wrap: wrap-reverse;
-    background: #fff3d9;
-    border-radius: 0 0 0 25%;
-    padding-bottom: 90px;
+.Banner-Flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap-reverse;
+  background: #fff3d9;
+  border-radius: 0 0 0 25%;
+  padding-bottom: 90px;
 }
-.Banner-Flex img{
-    width: 650px;
+.Banner-Flex img {
+  width: 650px;
 }
 .Banner-Text span {
- color: #e89082;
+  color: #e89082;
+  max-width: 200px;
+  font-size: 100px;
 }
-.Banner-Text h1{
-    font-size: 70px;
-    font-weight: 600;
-    max-width: 400px ;
-    line-height: 1.2;
-
+.Banner-Text h1 {
+  font-size: 90px;
+  font-weight: 600;
+  max-width: 900px;
+  line-height: 1.2;
 }
-.Banner-Text p{
-    font-size: 19px;
-    padding-top: 25px;
-max-width: 500px;
+.Banner-Text p {
+  font-size: 19px;
+  padding-top: 25px;
+  max-width: 500px;
 }
-.Banner-Text button{
-    background: #333232;
-    color: #fff;
-    padding: 10px;
-    border:none;
-    border-radius: 12px;
-    width: 150px;
-    margin-top: 25px;
+.Banner-Text button {
+  background: #333232;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 12px;
+  width: 150px;
+  margin-top: 25px;
 }
-@media only screen and (max-width: 655px){
-    .Banner-Flex img{
-        width: 500px;
-    }
+@media only screen and (max-width: 655px) {
+  .Banner-Flex img {
+    width: 500px;
+  }
 }
-@media only screen and (max-width: 600px){
-.Banner-Text h1{
+@media only screen and (max-width: 600px) {
+  .Banner-Text h1 {
     text-align: center;
     margin: auto;
     padding-top: 50px;
-}
-.Banner-Text p{
+  }
+  .Banner-Text p {
     text-align: center;
     font-size: 15px;
     max-width: 220px;
     margin: auto;
+  }
+  .Banner-Text button {
+    margin-left: 130px;
+  }
 }
-.Banner-Text button{
-margin-left: 130px;
-
+@media only screen and (max-width: 500px) {
+  .Banner-Flex img {
+    width: 450px;
+  }
 }
+@media only screen and (max-width: 455px) {
+  .Banner-Flex img {
+    width: 370px;
+  }
 }
-@media only screen and (max-width: 500px){
-    .Banner-Flex img{
-        width: 450px;
-    }
-}
-@media only screen and (max-width: 455px){
-    .Banner-Flex img{
-        width: 370px;
-    }
-}
-@media only screen and (max-width: 375px){
-    .Banner-Flex img{
-        width: 300px;
-    }
-    .Banner-Text button{
-        margin-left: 90px;
-    }
-    .Banner-Text h1{
-        font-size: 50px;
-    }
+@media only screen and (max-width: 375px) {
+  .Banner-Flex img {
+    width: 300px;
+  }
+  .Banner-Text button {
+    margin-left: 90px;
+  }
+  .Banner-Text h1 {
+    font-size: 50px;
+  }
 }
